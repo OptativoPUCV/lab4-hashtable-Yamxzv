@@ -66,3 +66,14 @@ Wed 24 Apr 2024 07:58:58 PM UTC:
  tests:  6|3
 total_score: 40/70
 59dff1a
+Wed 24 Apr 2024 08:03:10 PM UTC: 
+ hashmap.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘enlarge’:
+hashmap.c:79:9: error: ‘auxValor’ undeclared (first use in this function)
+   79 |     if (auxValor[i] != NULL)
+      |         ^~~~~~~~
+hashmap.c:79:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+768def3
