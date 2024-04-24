@@ -77,3 +77,9 @@ hashmap.c:79:9: error: ‘auxValor’ undeclared (first use in this function)
 hashmap.c:79:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 768def3
+Wed 24 Apr 2024 08:03:15 PM UTC: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|3
+total_score: 40/70
+9811d5c
