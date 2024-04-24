@@ -45,3 +45,18 @@ Wed 24 Apr 2024 07:56:36 PM UTC:
  tests:  6|3
 total_score: 40/70
 699e224
+Wed 24 Apr 2024 07:58:36 PM UTC: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘enlarge’:
+hashmap.c:79:9: error: ‘aux’ undeclared (first use in this function)
+   79 |     if (aux[i] != NULL)
+      |         ^~~
+hashmap.c:79:9: note: each undeclared identifier is reported only once for each function it appears in
+hashmap.c:73:11: error: unused variable ‘auxValor’ [-Werror=unused-variable]
+   73 |   Pair ** auxValor = map->buckets;
+      |           ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a82548b
