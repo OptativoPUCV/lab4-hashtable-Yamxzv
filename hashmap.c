@@ -150,6 +150,7 @@ Pair * nextMap(HashMap * map)
     if (map->buckets[i] != NULL)
     {
       map->current = i;
+      return map->buckets[i];
     }
   }
   
